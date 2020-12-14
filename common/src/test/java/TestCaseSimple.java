@@ -37,7 +37,7 @@ public class TestCaseSimple {
 
     @Test
     public void testc() {
-        String str = "fenbeiguoji"+"train_query"+"20201214142030"+md5LowerCase32("f6rmpy2y59tqu7mptv94jg5vx5r6ll33");
+        String str = "i"+"3333"+"20201214142030"+md5LowerCase32("f6rmpy2y59tqu7mptv94jg5vx5r6ll33");
         System.out.println(md5LowerCase32(str));
     }
 
