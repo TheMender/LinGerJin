@@ -4,40 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97065754-0c7f-4628-940d-5dc411ce3387" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f2f6e2efa27557433cce4545857d5772ff0179f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/315f189f0ccce98b41376dc777de7501f7de8862" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/3485086228006fb7a5f18dc39b063d6918d370d7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/488bdbea7e8b73c44bd2a54e63f6012f10969196" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3c08b4f7a0e20cf5b31766e21df70389937a86d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc06f701e8558af1033d6b64e2bb63df218eac9f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf9dc26ed704c841a550b68e036cd9a86697d51a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2cd7108b97b77fc33f2e1bdfbe23462a179dc50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/Strategy/CatComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/Strategy/Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/Strategy/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/Strategy/DogComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LinGerJin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LinGerJin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jol_jol_core_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="97065754-0c7f-4628-940d-5dc411ce3387" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/TestCaseSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/TestCaseSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/TheadTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/TheadTestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/TestCreateThreadByThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/TestCreateThreadByThreadPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/TheadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/TheadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/test-classes/TestCaseSimple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/test-classes/TheadTestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/Strategy/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/Strategy/Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/Strategy/StrategyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/Strategy/StrategyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +168,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616860338770" />
@@ -346,7 +316,7 @@
       <workItem from="1617115421691" duration="11000" />
       <workItem from="1617115453165" duration="1829000" />
       <workItem from="1617148983507" duration="982000" />
-      <workItem from="1617204755960" duration="2330000" />
+      <workItem from="1617204755960" duration="2591000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1616775414977</created>
@@ -362,7 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617116782841</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1617207123957</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617207123957</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <created>1617207166237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617207166237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -455,6 +439,8 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
