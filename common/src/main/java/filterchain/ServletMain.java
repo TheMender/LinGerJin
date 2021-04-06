@@ -47,8 +47,8 @@ class HtmlFilter implements Filter{
     @Override
     public void doFilter(Request request, Response response,Fliterchain fliterchain) {
         request.setRequestID("HtmlFilter");
-        response.setResponseId("HtmlFilter");
         fliterchain.doFilter(request,response,fliterchain);
+        response.setResponseId("HtmlFilter");
     }
 }
 
@@ -57,8 +57,8 @@ class AspFilter implements Filter{
     @Override
     public void doFilter(Request request, Response response,Fliterchain fliterchain) {
         request.setRequestID("AspFilter");
-        response.setResponseId("AspFilter");
         fliterchain.doFilter(request,response,fliterchain);
+        response.setResponseId("AspFilter");
     }
 }
 
@@ -67,8 +67,8 @@ class JavaFilter implements Filter{
     @Override
     public void doFilter(Request request, Response response,Fliterchain fliterchain) {
         request.setRequestID("JavaFilter");
-        response.setResponseId("JavaFilter");
         fliterchain.doFilter(request,response,fliterchain);
+        response.setResponseId("JavaFilter");
     }
 }
 
@@ -84,8 +84,8 @@ class Fliterchain implements Filter {
     @Override
     public void doFilter(Request request, Response response,Fliterchain fliterchain) {
         if (!iter.hasNext()) {
-            request.setRequestID("结束");
-            response.setResponseId("结束");
+            request.setRequestID("request结束");
+            response.setResponseId("response结束");
         } else {
             Filter f = iter.next();
             f.doFilter(request, response,fliterchain);
