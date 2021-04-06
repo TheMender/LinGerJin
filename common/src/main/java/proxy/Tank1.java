@@ -26,6 +26,7 @@ public class Tank1 implements Movable {
 //        new TankTimeProxy(new TankLogProxy(new Tank1())).move();
         Tank1 tank1 = new Tank1();
         //reflection 通过二进制字节码文件分析类的属性和方法
+        //JDK的反射必须面向接口，这是由Proxy内部决定的
         System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles","true");
         Movable m = (Movable) Proxy.newProxyInstance(Tank1.class.getClassLoader(),
                 new Class[]{Movable.class}, new TankInvocationHandler(tank1)
