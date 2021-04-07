@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97065754-0c7f-4628-940d-5dc411ce3387" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/practice/SingletonCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/TestCreateThreadByThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/practice/TestCreateThreadByThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/practice/TestThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/TestCreateThreadByThreadPool.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +46,7 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="iml" value="5" />
-          <entry key="java" value="43" />
+          <entry key="java" value="46" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
@@ -57,21 +54,21 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="46" />
           <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="1" />
-          <entry key="java" value="3035" />
+          <entry key="java" value="3336" />
           <entry key="txt" value="10" />
           <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3035" />
+          <entry key="JAVA" value="3336" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="VTL" value="1" />
           <entry key="XML" value="29" />
@@ -83,6 +80,9 @@
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LinGerJin" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -125,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/TestThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="453">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -137,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7470">
-              <caret line="549" column="11" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="11" />
+            <state relative-caret-position="139">
+              <caret line="305" column="77" selection-start-line="305" selection-start-column="77" selection-end-line="305" selection-end-column="77" />
               <folding>
                 <element signature="e#15704#15705#0" expanded="true" />
                 <element signature="e#15770#15771#0" expanded="true" />
@@ -149,38 +149,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/AbstractPipeline.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/SingletonCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4605">
-              <caret line="333" column="36" selection-start-line="333" selection-start-column="36" selection-end-line="333" selection-end-column="36" />
+            <state relative-caret-position="96">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Streams.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12075">
-              <caret line="856" column="29" selection-start-line="856" selection-start-column="29" selection-end-line="856" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14820">
-              <caret line="1040" column="35" selection-start-line="1040" selection-start-column="35" selection-end-line="1040" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="618">
+              <caret line="385" column="24" selection-start-line="385" selection-start-column="24" selection-end-line="385" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -209,6 +191,9 @@
       <find>S</find>
       <find>closeHandler</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/common/src/main/java/practice</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -238,6 +223,7 @@
         <option value="$PROJECT_DIR$/common/src/main/java/practice/Account.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/practice/Test.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/practice/TestThread.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/practice/SingletonCheck.java" />
       </list>
     </option>
   </component>
@@ -273,6 +259,9 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -333,14 +322,14 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617690960615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617766034480" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -365,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestThread">
+  <component name="RunManager" selected="Application.SingletonCheck">
     <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.Account" />
       <module name="common" />
@@ -392,8 +381,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.TestThread" />
+    <configuration name="SingletonCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.SingletonCheck" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
@@ -405,8 +394,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.ThreadState" />
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.TestThread" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
@@ -432,19 +421,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadState" />
       <item itemvalue="Application.RunThread" />
       <item itemvalue="Application.TwoThread" />
       <item itemvalue="Application.Account" />
       <item itemvalue="Application.TestThread" />
+      <item itemvalue="Application.SingletonCheck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonCheck" />
         <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.Account" />
         <item itemvalue="Application.TwoThread" />
         <item itemvalue="Application.RunThread" />
-        <item itemvalue="Application.ThreadState" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +471,7 @@
       <workItem from="1616758997379" duration="4895000" />
       <workItem from="1617432815178" duration="2406000" />
       <workItem from="1617677496338" duration="9107000" />
-      <workItem from="1617691101158" duration="926000" />
+      <workItem from="1617691101158" duration="12204000" />
     </task>
     <task id="LOCAL-00001" summary="thread">
       <created>1617672402725</created>
@@ -505,7 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617672503126</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="thread">
+      <created>1617696893329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617696893329</updated>
+    </task>
+    <task id="LOCAL-00005" summary="thread">
+      <created>1617696946216</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617696946216</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -541,22 +544,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50707000" />
+    <option name="totallyTimeSpent" value="61985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20243205" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.20243205" />
+      <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" visible="true" weight="0.20243205" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.502008" side_tool="true" weight="0.20243205" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,19 +571,20 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="MyBatis Log" order="13" />
       <window_info anchor="bottom" id="SonarLint" order="14" />
+      <window_info anchor="right" id="jclasslib" weight="0.50500715" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Codota" order="4" weight="0.3297568" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Word Book" order="6" sideWeight="0.50089765" side_tool="true" weight="0.3297568" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297568" />
-      <window_info anchor="right" id="Redis Explorer" order="8" weight="0.3297568" />
-      <window_info anchor="right" id="Database" order="9" weight="0.3297568" />
-      <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="PlantUML" order="12" sideWeight="0.49910232" weight="0.3297568" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Word Book" order="5" sideWeight="0.50401604" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.49799198" weight="0.3297568" />
+      <window_info anchor="right" id="Redis Explorer" order="7" sideWeight="0.49799198" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="8" sideWeight="0.49799198" weight="0.3297568" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="PlantUML" order="11" sideWeight="0.49598393" weight="0.3297568" />
+      <window_info anchor="right" x="489" y="201" width="461" height="498" id="Codota" order="12" type="FLOATING" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -842,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="381" column="16" selection-start-line="381" selection-start-column="16" selection-end-line="381" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/SynThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -876,19 +872,6 @@
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7470">
-          <caret line="549" column="11" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="11" />
-          <folding>
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-            <element signature="e#19132#19133#0" expanded="true" />
-            <element signature="e#19175#19176#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -923,8 +906,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/TestThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="453">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="385" column="24" selection-start-line="385" selection-start-column="24" selection-end-line="385" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="305" column="77" selection-start-line="305" selection-start-column="77" selection-end-line="305" selection-end-column="77" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#19132#19133#0" expanded="true" />
+            <element signature="e#19175#19176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/SingletonCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
