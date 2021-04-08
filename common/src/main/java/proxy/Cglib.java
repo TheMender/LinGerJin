@@ -21,16 +21,8 @@ public class Cglib {
         tank.move();
     }
 }
+class TimeMethodInterceptor implements MethodInterceptor{
 
-class TimeMethodInterceptor implements MethodInterceptor {
-
-    @Override
-    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        System.out.println("动态代理调用开始");
-        Object ro = methodProxy.invokeSuper(o, objects);
-        System.out.println("动态代理调用结束");
-        return null;
-    }
 }
 
 class Tank {
