@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97065754-0c7f-4628-940d-5dc411ce3387" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/practice/CountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/practice/HelloUnsafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/practice/ReenTantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/practice/ReentrantLockTrue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/practice/TestCountDownLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/practice/TestCyclicBarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/practice/TestPhaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/practice/VolatileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/practice/TestReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/practice/TestReadWriteLock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +47,7 @@
         <counts>
           <entry key="class" value="8" />
           <entry key="iml" value="5" />
-          <entry key="java" value="70" />
+          <entry key="java" value="71" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
@@ -63,7 +55,7 @@
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="69" />
+          <entry key="JAVA" value="70" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="10" />
         </counts>
@@ -71,14 +63,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="1" />
-          <entry key="java" value="5796" />
+          <entry key="java" value="5809" />
           <entry key="txt" value="10" />
           <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5796" />
+          <entry key="JAVA" value="5809" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="VTL" value="1" />
           <entry key="XML" value="29" />
@@ -96,15 +88,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/CountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/ReenTantLock.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/TestPhaser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -146,6 +129,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/TestReadWriteLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -280,6 +272,7 @@
         <option value="$PROJECT_DIR$/common/src/main/java/practice/TestCyclicBarrier.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/practice/TestPhaser.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/practice/TestReadWriteLock.java" />
       </list>
     </option>
   </component>
@@ -383,7 +376,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617945901206" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617946260864" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -540,7 +533,7 @@
       <workItem from="1617771414647" duration="9356000" />
       <workItem from="1617844799397" duration="14409000" />
       <workItem from="1617943860993" duration="191000" />
-      <workItem from="1617945393757" duration="134000" />
+      <workItem from="1617945393757" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="thread">
       <created>1617672402725</created>
@@ -584,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617766066049</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="thread">
+      <created>1617945919960</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617945919961</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -620,11 +620,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88075000" />
+    <option name="totallyTimeSpent" value="88298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.20243205" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.20243205" />
@@ -712,13 +711,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2175">
@@ -1085,6 +1077,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/practice/TestReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
