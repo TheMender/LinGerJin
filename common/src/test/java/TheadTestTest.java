@@ -1,4 +1,4 @@
-import org.junit.Test;
+//import org.junit.Test;
 
 /**
  * Title:
@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class TheadTestTest {
 
-    @Test
+//    @Test
     public void testd() {
 //        TheadTest theadTest = new TheadTest();
 //        theadTest.run();
