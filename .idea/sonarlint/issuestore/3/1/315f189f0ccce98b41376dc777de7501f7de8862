@@ -1,0 +1,12 @@
+
+@
+java:S3457"%String contains no format specifiers.( ¼½œþÿÿÿÿ
+@
+java:S3457 "%String contains no format specifiers.(¢‹”Õùÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¢‹”Õùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.( ¼½œþÿÿÿÿ
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(€ßè‹
+@
+java:S3457"%String contains no format specifiers.(²ÝÕ¸ýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(²ÝÕ¸ýÿÿÿÿ
+[	java:S112	"FDefine and throw a dedicated exception instead of using a generic one.(Ú½úö
