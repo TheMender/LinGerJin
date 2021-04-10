@@ -6,6 +6,9 @@
     <artifactId>LinGerJin</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>common</module>
+    </modules>
 
     <name>order-center</name>
     <url>http://maven.apache.org</url>
@@ -47,6 +50,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -116,64 +125,9 @@
         </pluginManagement>
     </build>
 
-    <!--<repositories>-->
-    <!--<repository>-->
-    <!--<id>releases</id>-->
-    <!--<name>nexus-releases</name>-->
-    <!--<url>http://172.16.0.6:8081/nexus/content/repositories/releases</url>-->
-    <!--<snapshots>-->
-    <!--<enabled>false</enabled>-->
-    <!--</snapshots>-->
-    <!--</repository>-->
-    <!--<repository>-->
-    <!--<id>snapshots</id>-->
-    <!--<name>nexus-snapshots</name>-->
-    <!--<url>http://172.16.0.6:8081/nexus/content/repositories/snapshots</url>-->
-    <!--<snapshots>-->
-    <!--<enabled>true</enabled>-->
-    <!--<updatePolicy>always</updatePolicy>-->
-    <!--</snapshots>-->
-    <!--</repository>-->
-    <!--</repositories>-->
-
-    <!--<distributionManagement>-->
-    <!--<repository>-->
-    <!--<id>releases</id>-->
-    <!--<name>nexus-releases</name>-->
-    <!--<url>http://172.16.0.6:8081/nexus/content/repositories/releases</url>-->
-    <!--</repository>-->
-    <!--<snapshotRepository>-->
-    <!--<id>snapshots</id>-->
-    <!--<name>nexus-snapshots</name>-->
-    <!--<url>http://172.16.0.6:8081/nexus/content/repositories/snapshots</url>-->
-    <!--</snapshotRepository>-->
-    <!--</distributionManagement>-->
 
     <!--maven仓库地址 download -->
     <repositories>
-<!--        <repository>-->
-<!--            <id>fbt-nexus</id>-->
-<!--            <name>local private nexus</name>-->
-<!--            <url>http://nexus.fenbeijinfu.com:8081/nexus/content/repositories/releases/</url>-->
-<!--            <releases>-->
-<!--                <enabled>true</enabled>-->
-<!--            </releases>-->
-<!--            <snapshots>-->
-<!--                <enabled>false</enabled>-->
-<!--            </snapshots>-->
-<!--        </repository>-->
-<!--        <repository>-->
-<!--            <id>fbt-nexus-snapshots</id>-->
-<!--            <name>local private nexus</name>-->
-<!--            <url>http://nexus.fenbeijinfu.com:8081/nexus/content/repositories/snapshots/</url>-->
-<!--            <releases>-->
-<!--                <enabled>false</enabled>-->
-<!--            </releases>-->
-<!--            <snapshots>-->
-<!--                <enabled>true</enabled>-->
-<!--                <updatePolicy>always</updatePolicy>-->
-<!--            </snapshots>-->
-<!--        </repository>-->
         <repository>
             <id>aliMaven</id>
             <name>aliYun maven</name>
@@ -200,55 +154,23 @@
 
     <!--maven仓库地址 upload -->
     <distributionManagement>
+        <!--<repository>-->
+            <!--<id>releases</id>-->
+            <!--<name>nexus-releases</name>-->
+            <!--<url>http://nexus.fenbeijinfu.com:8081/nexus/content/repositories/releases/</url>-->
+        <!--</repository>-->
         <repository>
-            <id>releases</id>
-            <name>nexus-releases</name>
-            <url>http://nexus.fenbeijinfu.com:8081/nexus/content/repositories/releases/</url>
+            <id>aliMaven</id>
+            <name>aliYun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <!--<releases>-->
+                <!--<enabled>true</enabled>-->
+            <!--</releases>-->
+            <!--<snapshots>-->
+                <!--<enabled>true</enabled>-->
+            <!--</snapshots>-->
         </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>nexus-snapshots</name>
-            <url>http://nexus.fenbeijinfu.com:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
     </distributionManagement>
-
-    <!--<distributionManagement>-->
-    <!--<repository>-->
-    <!--<id>releases</id>-->
-    <!--<url>http://172.16.0.6:8081/nexus/content/repositories/releases</url>-->
-    <!--</repository>-->
-    <!--<snapshotRepository>-->
-    <!--<id>snapshots</id>-->
-    <!--<url>http://172.16.0.6:8081/nexus/content/repositories/snapshots</url>-->
-    <!--</snapshotRepository>-->
-    <!--</distributionManagement>-->
-
-    <!--<repositories>-->
-    <!--<repository>-->
-    <!--<id>nexus</id>-->
-    <!--<name>local private nexus</name>-->
-    <!--<url>http://172.16.0.6:8081/nexus/content/repositories/releases</url>-->
-    <!--<releases>-->
-    <!--<enabled>true</enabled>-->
-    <!--</releases>-->
-    <!--<snapshots>-->
-    <!--<enabled>true</enabled>-->
-    <!--<updatePolicy>always</updatePolicy>-->
-    <!--</snapshots>-->
-    <!--</repository>-->
-    <!--<repository>-->
-    <!--<id>nexus-snapshots</id>-->
-    <!--<name>local private nexus</name>-->
-    <!--<url>http://172.16.0.6:8081/nexus/content/repositories/snapshots</url>-->
-    <!--<releases>-->
-    <!--<enabled>true</enabled>-->
-    <!--</releases>-->
-    <!--<snapshots>-->
-    <!--<enabled>true</enabled>-->
-    <!--<updatePolicy>always</updatePolicy>-->
-    <!--</snapshots>-->
-    <!--</repository>-->
-    <!--</repositories>-->
 
     <!-- 针对不同运行环境的配置 -->
     <profiles>
