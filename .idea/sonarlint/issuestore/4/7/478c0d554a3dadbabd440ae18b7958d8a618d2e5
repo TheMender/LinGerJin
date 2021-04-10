@@ -1,0 +1,15 @@
+
+L
+java:S1612",Replace this lambda with a method reference.(ÊÂâ†øÿÿÿÿ8¦Ø“İŠ/
+[	java:S125"<This block of commented-out lines of code should be removed.(—”®…øÿÿÿÿ8¦Ø“İŠ/
+b
+java:S1128"BRemove this unused import 'java.util.concurrent.atomic.LongAdder'.(ÖÜàûÿÿÿÿ8¦Ø“İŠ/
+C
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¦Ø“İŠ/
+U	java:S125"<This block of commented-out lines of code should be removed.(ôÄÊH8¦Ø“İŠ/
+a
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¦Ø“İŠ/
+[	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8¦Ø“İŠ/
+[	java:S125"<This block of commented-out lines of code should be removed.(×¹ ûşÿÿÿÿ8¦Ø“İŠ/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ü–¥ÿ8¦Ø“İŠ/
+[	java:S125"<This block of commented-out lines of code should be removed.(¸³Ûÿÿÿÿÿ8¦Ø“İŠ/

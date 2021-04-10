@@ -1,0 +1,17 @@
+
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ôìå­Š/
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(§–Ç¨øÿÿÿÿ8á¥à­Š/
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Å Þ­Š/
+H
+java:S1172"+Remove this unused method parameter "name".(ËÀû½8¾¡Õ­Š/
+E
+java:S1148,"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8™Óá­Š/
+E
+java:S1148&"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Å Þ­Š/
+c
+java:S2142%"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8™Óá­Š/
+c
+java:S2142+"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ôìå­Š/
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(§–Ç¨øÿÿÿÿ8”²á­Š/

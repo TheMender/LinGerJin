@@ -1,0 +1,29 @@
+
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(¬–¥úÿÿÿÿ8İÂ–İŠ/
+c
+java:S2142)"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8•ÁİŠ/
+T	java:S106`"9Replace this use of System.out or System.err by a logger.(ÛÆ«18•ÁİŠ/
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ËÉ˜Šüÿÿÿÿ8äÀ­İŠ/
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(–£ƒß8ß‘ÀİŠ/
+c
+java:S2142Y"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8…Ã³İŠ/
+e
+java:S1192!"HDefine a constant instead of duplicating this literal "thread-" 3 times.(‚åŒ8•ÁİŠ/
+N
+java:S1612<",Replace this lambda with a method reference.(Ş½å¢úÿÿÿÿ8…Ã³İŠ/
+c
+java:S2142A"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8İÂ–İŠ/
+E
+java:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…ë”İŠ/
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(ĞùÙ©8ß‘ÀİŠ/
+E
+java:S1148B"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…Ã³İŠ/
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8•ÁİŠ/
+N
+java:S1612T",Replace this lambda with a method reference.(İºÏüıÿÿÿÿ8œÎİŠ/
+T	java:S106a"9Replace this use of System.out or System.err by a logger.(×—şq8•ÁİŠ/
+E
+java:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8•ÁİŠ/
+N
+java:S1612$",Replace this lambda with a method reference.(ÊÂâ†øÿÿÿÿ8…ë”İŠ/

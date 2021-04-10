@@ -1,0 +1,6 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(øÍÛÔ8²´ý×Š/
+C
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8²´ý×Š/
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€8²´ý×Š/

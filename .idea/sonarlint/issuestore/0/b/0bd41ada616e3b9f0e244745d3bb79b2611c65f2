@@ -1,0 +1,31 @@
+
+C
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8íÂ˜²‹/
+;
+java:S2438""Argument 1" is a "Thread".(ƒä·³ÿÿÿÿÿ8íÂ˜²‹/
+;
+java:S2438""Argument 1" is a "Thread".(À°®æúÿÿÿÿ8íÂ˜²‹/
+;
+java:S2438""Argument 1" is a "Thread".(…ØÈìûÿÿÿÿ8íÂ˜²‹/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢¡²8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(˜¤›Ëÿÿÿÿÿ8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(Ç´‘¿ùÿÿÿÿ8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¨…õÉûÿÿÿÿ8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8íÂ˜²‹/
+l
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ôÜ‚…8íÂ˜²‹/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ôÜ‚…8íÂ˜²‹/
+q
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(òƒşüúÿÿÿÿ8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(òƒşüúÿÿÿÿ8íÂ˜²‹/
+q
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(‰¾ñùÿÿÿÿ8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(‰¾ñùÿÿÿÿ8íÂ˜²‹/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ÑĞúıÿÿÿÿ8íÂ˜²‹/
+a
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8íÂ˜²‹/
+?
+java:S3398"Move this method into "Person".(˜‚°²ùÿÿÿÿ8íÂ˜²‹/

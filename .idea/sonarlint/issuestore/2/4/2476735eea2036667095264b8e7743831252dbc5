@@ -1,0 +1,14 @@
+
+X	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8Ë¶âýŠ/
+[	java:S125"<This block of commented-out lines of code should be removed.(ÁíÙ¹øÿÿÿÿ8â¬¯þŠ/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Šäÿà8™ÄåýŠ/
+C
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¥…‚þŠ/
+e	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ê“Åýÿÿÿÿ8Ó‰õýŠ/
+G
+java:S1612",Replace this lambda with a method reference.(ã¼Ïƒ8Þí¦þŠ/
+e	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ê“Åýÿÿÿÿ8‰ÆûýŠ/
+a
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¥…‚þŠ/
+G
+java:S1612",Replace this lambda with a method reference.(’¥Š·8¨¿çýŠ/
