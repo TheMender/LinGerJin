@@ -23,6 +23,10 @@ public class Cglib {
 }
 class TimeMethodInterceptor implements MethodInterceptor{
 
+    @Override
+    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+        return null;
+    }
 }
 
 class Tank {
