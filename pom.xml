@@ -29,7 +29,7 @@
         <postgresql.version>42.1.1</postgresql.version>
         <druid.version>1.0.31</druid.version>
         <aspectj.version>1.7.3</aspectj.version>
-        <quartz.version>2.3.0</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <pinyin4j.version>2.5.1</pinyin4j.version>
         <current.version>${profile.version}</current.version>
     </properties>
